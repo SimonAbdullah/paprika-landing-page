@@ -1,0 +1,276 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  align-items: center;
+}
+
+.navbar.navbar-expand-md.navbar-light.bg-transparent{
+  position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.carousel-caption {
+  text-align:right ;
+}
+
+ol.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: gray;
+}
+
+ol.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+ol.carousel-indicators{
+  top:70%;
+  height: fit-content;
+  margin-left: 60%;
+}
+
+div.carousel-caption{
+  top: 40% !important;;
+  height: fit-content;
+  position: absolute;
+
+  bottom: 20px;
+  left: 15%;
+  padding-bottom: 20px;
+  text-align:right ;
+  margin-left: 40%;
+}
+div.carousel.slide{
+  top: 0;
+}
+
+@font-face {
+  font-family: 'ArefMenna';
+  src: local('ArefMenna'), url("../styles/fonts/Aref_MennaBold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'CairoSemiBold';
+  src: local('CairoSemiBold'), url("../styles/fonts/Cairo-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'CairoBold';
+  src: local('CairoBold'), url("../styles/fonts/Cairo-Bold.ttf") format('truetype');
+}
+
+
+.carousel-caption h3 {
+  font-weight: bold;
+  font-size: 0.7em; /* small size since this is the default in Bootstrap */
+}
+
+.carousel-caption p {
+  font-size: 0.5em; /* small size since this is the default in Bootstrap */
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+.carousel-caption h3 { font-size: 0.7em;font-family: ArefMenna;}
+.carousel-caption p {font-size: 0.5em;font-family: CairoSemiBold;} 
+p.card-text {font-size: 0.5em;font-family: CairoSemiBold;}
+div.card-title.h5 {font-size: 1.5em;font-family: CairoSemiBold;}
+
+ol.carousel-indicators{
+  top:85%;
+  height: fit-content;
+  margin-left: 60%;
+} 
+
+ol.carousel-indicators li{
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: gray;
+}
+
+ol.carousel-indicators li.active {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: red;
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+.carousel-caption h3 { font-size: 1.4em;}
+.carousel-caption p {font-size: 1.2em;}  
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+.carousel-caption h3 { font-size: 1.5em;}
+.carousel-caption p {font-size: 1.3em;}  
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.carousel-caption h3 { 
+  font-size: 2.9em;
+ font-family: ArefMenna;
+}
+
+.carousel-caption p {font-size: 0.9em;font-family: CairoSemiBold;}  
+
+
+ol.carousel-indicators{
+  top:60%;
+  height: fit-content;
+  margin-left: 60%;
+} 
+
+ol.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: gray;
+}
+
+ol.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+}
+}
+
+img.card-img-top {
+  width: 30%;
+  
+}
+
+div.card {
+  align-items: center;
+  border: 0ch;
+  text-align: center;
+  
+}
+
+p.card-text{
+  font-size: 1em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+img.card-img-top {
+  width: 35%;
+  height: 35%;
+}
+
+.card-deck  .card-img-top{
+box-shadow: 5%;
+width: 25%;
+padding-top: 15%
+}
+
+.card-deck .card{
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+  
+}
+
+.card-deck .card-text {
+  font-size: 1.0em;
+  width: 140%;
+  text-align: center;
+  margin: -15%;
+}
+
+div.card-deck {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  padding-bottom: 10%;
+}
+
+h4 {
+  text-align: center;
+  font-family: ArefMenna;
+  font-size: 3.5rem;
+}
+
+h2 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    bottom: 20px;
+    left: 15%;
+    padding-bottom: 20px;
+    text-align: right;
+    margin-right: 37%;
+    font-family: ArefMenna;
+
+}
+
+img {
+  margin: auto;
+}
+
+th {
+  color: red;
+  text-align-last: center;
+  background-color: rgb(245, 239, 239);
+}
+
+td {
+  background-color: rgb(245, 239, 239);
+  text-align: center;
+  font-size: 0.9em;
+  
+  
+}
+
+.table {
+    border-collapse: separate;
+    margin-bottom: 1rem;
+    color: #212529;
+    margin: auto;
+    font-family: CairoSemiBold;
+    width: 65%;
+}
+
+tr:last-child {
+  color: red;
+  font-weight: bold;
+}
+
+tr td:last-child {
+  text-align: right;
+  font-size: 1.0em;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+}
