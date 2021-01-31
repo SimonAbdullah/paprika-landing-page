@@ -196,7 +196,7 @@ padding-top: 15%
 }
 
 .card-deck .card{
-  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   
 }
 
@@ -240,7 +240,7 @@ img {
 th {
   color: red;
   text-align-last: center;
-  background-color: rgb(245, 239, 239);
+  background-color: #F1EFEE;
 }
 
 td {
@@ -251,13 +251,13 @@ td {
   
 }
 
-.table {
+.table.table-striped.table-bordered {
     border-collapse: separate;
     margin-bottom: 1rem;
     color: #212529;
     margin: auto;
     font-family: CairoSemiBold;
-    width: 65%;
+    width: 90%;
 }
 
 tr:last-child {
@@ -267,10 +267,16 @@ tr:last-child {
 
 tr td:last-child {
   text-align: right;
-  font-size: 1.0em;
+
 }
 
 p {
     margin-top: 0px;
     margin-bottom: 0rem;
+}
+
+td {
+  background-color:#F1EFEE;
+  width: 33.33%;
+  font-size: 1.2em;
 }

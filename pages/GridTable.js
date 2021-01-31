@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { StarFill } from 'react-bootstrap-icons';
+
 
 class BootstrapGridTableComponent extends React.Component {
 	render() {
@@ -9,10 +11,8 @@ class BootstrapGridTableComponent extends React.Component {
 				<thead>
 					<tr>
 						
-						<th>الباقة الذهبية</th>
-						<th>الباقة الفضية
-                            <p>دون حجز</p>
-                        </th>
+						<th>الباقة الذهبية <StarFill color="gold"/></th>
+						<th>الباقة الفضية <span style={{color:"black", fontSize:"0.8em"}}>دون حجز</span><StarFill color="gray"/> </th>
 						<th>الميزات المقدمة</th>
 					</tr>
 				</thead>
@@ -48,7 +48,7 @@ class BootstrapGridTableComponent extends React.Component {
 						<td>تصميم ونشر إعلانات على الفيسبوك</td>
 					</tr>
 					<tr>
-						<td>ل.س 150.000</td>
+						<td>150.000 ل.س</td>
 						<td>ل.س 75.000</td>
                         <td></td>
 					</tr>

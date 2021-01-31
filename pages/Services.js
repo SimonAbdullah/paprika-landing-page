@@ -1,5 +1,5 @@
 import React from "react";
-import { CardGroup } from 'react-bootstrap';
+import { CardGroup, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from "react-bootstrap/Card";
 
@@ -7,8 +7,11 @@ class BootstrapCardGroupComponent extends React.Component {
   render(){
     return (
       <React.Fragment>
+        <Row>
         <img src ="images/Services.svg"/>
         <h2>خدماتنا</h2>
+        </Row>
+        
       <CardGroup>
   <Card>
     <Card.Img variant="top" src="images/discount.svg" />
