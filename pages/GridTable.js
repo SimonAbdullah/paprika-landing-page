@@ -2,17 +2,25 @@ import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { StarFill } from 'react-bootstrap-icons';
+import { CaretDownFill } from 'react-bootstrap-icons';
+import { Row } from 'react-bootstrap';
+
 
 
 class BootstrapGridTableComponent extends React.Component {
 	render() {
 		return (
-			<Table striped bordered hover>
+			<React.Fragment>
+				<Row>
+				<img src ="images/Prices.svg"/>
+				<h1>لائحة الأسعار</h1>
+				<p>لمدة عام واحد</p>
+				</Row>
+			<Table striped bordered  responsive>
 				<thead>
 					<tr>
-						
 						<th>الباقة الذهبية <StarFill color="gold"/></th>
-						<th>الباقة الفضية <span style={{color:"black", fontSize:"0.8em"}}>دون حجز</span><StarFill color="gray"/> </th>
+						<th>الباقة الفضية <span style={{color:"black", fontSize:"0.8em"}}>دون حجز</span><StarFill color="gray"/></th>
 						<th>الميزات المقدمة</th>
 					</tr>
 				</thead>
@@ -54,6 +62,10 @@ class BootstrapGridTableComponent extends React.Component {
 					</tr>
 				</tbody>
 			</Table>
+			<div className="downfill">
+			<CaretDownFill className="fill" color="red" size={30}/>
+			</div>
+			</React.Fragment>
 		)
 	}
 }

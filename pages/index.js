@@ -7,6 +7,8 @@ import Services from '../pages/Services'
 import Carousel from '../pages/Carousel'
 import CardDeck from '../pages/CardDeck'
 import GridTable from '../pages/GridTable'
+import ContactUs from '../pages/ContactUs'
+import Paprica from '../pages/Paprica'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
     <Services/>
     <CardDeck/>
     <GridTable/>
+    <ContactUs/>
+    <Paprica/>
     </>
   );
 }

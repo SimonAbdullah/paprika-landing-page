@@ -98,12 +98,19 @@ div.carousel.slide{
 .carousel-caption p {
   font-size: 0.5em; /* small size since this is the default in Bootstrap */
 }
+
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 300px) { 
 .carousel-caption h3 { font-size: 0.7em;font-family: ArefMenna;}
 .carousel-caption p {font-size: 0.5em;font-family: CairoSemiBold;} 
 p.card-text {font-size: 0.5em;font-family: CairoSemiBold;}
 div.card-title.h5 {font-size: 1.5em;font-family: CairoSemiBold;}
+p {font-family: CairoSemiBold;}
+label {font-family: CairoSemiBold;}
+.store .article {font-size: 1.1em;font-family: ArefMenna;}
+.store .praghraf{font-size: 1.0em;font-family: CairoSemiBold;}
+.social .email {font-size: 1.5em;font-family: ArefMenna;}
+.social .facebook{font-size: 1.5em;font-family: ArefMenna;}
 
 ol.carousel-indicators{
   top:85%;
@@ -124,11 +131,36 @@ ol.carousel-indicators li.active {
   border-radius: 100%;
   background-color: red;
 }
+.contact .contactus {
+  margin: auto;
+  text-align: center;
+}
+label {
+  margin: auto;
+  text-align: center;
+}
+div.form-row {
+  align-items: center;
+}
+button.btn.btn-primary {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  white-space: normal;
+}
+.icon .col {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  
 .carousel-caption h3 { font-size: 1.4em;}
-.carousel-caption p {font-size: 1.2em;}  
+.carousel-caption p {font-size: 1.2em;} 
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
@@ -228,13 +260,11 @@ h2 {
     left: 15%;
     padding-bottom: 20px;
     text-align: right;
-    margin-right: 37%;
+    margin-right: 74%;
+    margin-left: 2%;
+    padding-top: 11%;
     font-family: ArefMenna;
 
-}
-
-img {
-  margin: auto;
 }
 
 th {
@@ -267,12 +297,11 @@ tr:last-child {
 
 tr td:last-child {
   text-align: right;
-
 }
 
 p {
-    margin-top: 0px;
-    margin-bottom: 0rem;
+  margin-top: 0px;
+  margin-bottom: 0rem;
 }
 
 td {
@@ -280,3 +309,184 @@ td {
   width: 33.33%;
   font-size: 1.2em;
 }
+
+.row {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -35px;
+  margin-left: 148px;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 3%;
+  padding-left: 37%;
+}
+
+
+
+h1 {
+  font-family: ArefMenna;
+  font-size: 3.5rem;
+}
+
+span {
+  color: black;
+  margin: 5%;
+  font-weight: bold;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 5%;
+}
+
+.col {
+    width: 30%;
+    margin: auto;
+    padding: 5%;
+    left: 25%;
+}
+
+input.form-control {
+  display: block;
+    width: 100%;
+    height: -moz-calc(1.5em + .75rem + 2px);
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    text-align: right;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F1EFEE;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -moz-border-radius: .25rem;
+    border-radius: .25rem;
+    -moz-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-moz-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-moz-box-shadow .15s ease-in-out;
+}
+
+.row p {
+  margin-top: 0px;
+  margin-bottom: -4rem;
+  margin-left: -12%;
+}
+
+
+
+textarea.form-control {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin: auto;
+  width: 46%;
+  justify-content: center;
+  margin-top: -3%;
+  background-color:#F1EFEE;
+}
+
+div.form-row {
+  display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    width: 70%;
+    margin: auto;
+    padding-right: 23%;
+    padding-bottom: 2%;
+     
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  padding-left: 32%;
+  margin-left: 1%;
+}
+
+button.btn.btn-primary {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+  align-items: center;
+  width: 30%;
+  top: 50%;
+  left: 44%;
+  position: relative;
+  margin: auto;
+  transform: translate(-188px, 10px);
+}
+
+col .paprica img {
+  width: 34%;
+  margin-left: 15%;
+}
+
+.store .google {
+  width: 50%;
+}
+
+.store .apple {
+  width: 50%;
+  margin-left: 56%;
+  margin-top: -15%;
+}
+
+.baba .col {
+  width: 40%;
+  margin-left: 0%;
+}
+
+.icon .col {
+  width: 40%;
+  margin-left: 97%;
+  margin-top: -53%;
+}
+
+.popina .row {
+  margin-left: -35%;
+}
+
+.store .praghraf {
+  margin-bottom: 4%;
+  margin-left: 16%;
+}
+
+.store .article {
+  margin-left: 12%;
+}
+
+.social .face {
+  padding-left: 4%;
+}
+
+.social .facebook {
+  margin-left: 1%;
+  margin-bottom: unset;
+  color: crimson;
+}
+
+.social .email {
+  margin-left: 1%;
+  margin-bottom: unset;
+}
+
+.contact .contactus {
+  margin-left: -19%;
+  margin-bottom: unset;
+}
+
+.downfill .fill {
+  margin-left: 49%;
+  margin-top: 1%;
+}
+
